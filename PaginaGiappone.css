@@ -1,11 +1,13 @@
 .header{
-  max-width: 1153px;
-
-
+  width: 1925px;
+  position:relative;
+margin: -8px 0px 0px -13px;
 }
 
 .nav{
-  width: 1890px;
+  width: 1925px;
+margin: 0px 0px 0px 00px;
+
 }
 
 ul {
@@ -31,20 +33,37 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+
 .cover{
-  width: 1890px;
+  text-align: center;
+  width: 1925px;
   height: 700px;
-  background: url(http://maxblogslife.com/wp-content/uploads/2017/04/tianshu-liu-242331-e1492920981963.jpg) no-repeat center center;
+  background: url(https://tod.digital/wp-content/uploads/2017/01/beo3llrnmda-kazuend.jpg) no-repeat center center;
   background-size: cover;
-  padding-top: 0px;
+  position: relative;
+  margin: 0px 0px 0px -13px;
 
 
+
+  opacity: 0.7;
+}
+
+.text {
+  width: 800px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  top: 150px;
+  margin: 0px 0px 0px 550px;
+  opacity: 0.5;
 
 }
 
+.text h1{
+text-align: center;
+color: white;
+padding: 180px 10px 180px 10px;
+margin: 0px 0px 0px 0px;
 
-.block-orange{
-  width: 1890px;
-  height: 500px;
-  background-color: #c24222;
 }
