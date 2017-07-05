@@ -1,0 +1,50 @@
+.header{
+  max-width: 1153px;
+
+
+}
+
+.nav{
+  width: 1890px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.cover{
+  width: 1890px;
+  height: 700px;
+  background: url(http://maxblogslife.com/wp-content/uploads/2017/04/tianshu-liu-242331-e1492920981963.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 0px;
+
+
+
+}
+
+
+.block-orange{
+  width: 1890px;
+  height: 500px;
+  background-color: #c24222;
+}
