@@ -1,12 +1,16 @@
+
+
 .header{
   width: 1925px;
   position:relative;
-margin: -8px 0px 0px -13px;
+  margin: -8px 0px 0px -13px;
+  box-shadow: 0px 7px 20px 0px black;
 }
 
 .nav{
-  width: 1925px;
-margin: 0px 0px 0px 00px;
+width: 1925px;
+margin: 0px 0px 0px 0px;
+box-shadow: inset 1px -3px 0 1px #d44d13;
 
 }
 
@@ -43,9 +47,6 @@ li a:hover {
   background-size: cover;
   position: relative;
   margin: 0px 0px 0px -13px;
-
-
-
   opacity: 0.7;
 }
 
@@ -65,5 +66,28 @@ text-align: center;
 color: white;
 padding: 180px 10px 180px 10px;
 margin: 0px 0px 0px 0px;
+
+}
+
+.rettangolo-arancio{
+  background-color: #b73b1f;
+  width: 1925px;
+  height: 500px;
+  position:relative;
+  margin: 0px 0px 0px -13px;
+  background-size: cover;
+  box-shadow: 0px -20px 50px 4px black;
+
+}
+
+
+.card{
+  background-color: black;
+  background-image: url();
+  width: 800px;
+  height: 400px;
+  position: relative;
+  top: 50px;
+  margin: 0px 0px 0px 550px;
 
 }
