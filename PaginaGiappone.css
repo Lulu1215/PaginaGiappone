@@ -1,4 +1,4 @@
-
+/* header */
 
 .header{
   width: 1925px;
@@ -7,12 +7,14 @@
   box-shadow: 0px 7px 20px 0px black;
 }
 
+/* navbar */
+
 .nav{
 width: 1925px;
 margin: 0px 0px 0px 0px;
 box-shadow: inset 1px -3px 0 1px #d44d13;
-
 }
+
 
 ul {
     list-style-type: none;
@@ -22,9 +24,11 @@ ul {
     background-color: #333;
 }
 
+
 li {
     float: left;
 }
+
 
 li a {
     display: block;
@@ -34,10 +38,12 @@ li a {
     text-decoration: none;
 }
 
+
 li a:hover {
     background-color: #111;
 }
 
+/* cover */
 
 .cover{
   text-align: center;
@@ -50,6 +56,7 @@ li a:hover {
   opacity: 0.7;
 }
 
+
 .text {
   width: 800px;
   height: 400px;
@@ -58,8 +65,8 @@ li a:hover {
   top: 150px;
   margin: 0px 0px 0px 550px;
   opacity: 0.5;
-
 }
+
 
 .text h1{
 text-align: center;
@@ -69,10 +76,12 @@ margin: 0px 0px 0px 0px;
 
 }
 
+/* rettangolo-arancio */
+
 .rettangolo-arancio{
   background-color: #b73b1f;
   width: 1925px;
-  height: 500px;
+  height: 700px;
   position:relative;
   margin: 0px 0px 0px -13px;
   background-size: cover;
@@ -82,12 +91,50 @@ margin: 0px 0px 0px 0px;
 
 
 .card{
-  background-color: black;
-  background-image: url();
-  width: 800px;
-  height: 400px;
+  background-image: url(http://i.imgur.com/WYjfqbD.jpg);
+  width: 970px;
+  height: 520px;
   position: relative;
-  top: 50px;
-  margin: 0px 0px 0px 550px;
+  top: 70px;
+  margin: 0px 0px 0px 450px;
+}
 
+
+.point{
+  width: 1000px;
+  height: 520px;
+  position: relative;
+  top:-180px;
+  margin: 0px 0px 0px 450px;
+}
+
+
+.point h3{
+  display: inline;
+  text-align: center;
+  color: white;
+  padding-right: 105px;
+  padding-left: 110px;
+  font-size: 120%;
+}
+
+/* end */
+
+.end{
+  background-color: white;
+  width: 1925px;
+  height: 700px;
+  position:relative;
+  margin: 0px 0px 0px -13px;
+  background-size: cover;
+}
+
+/* footer */
+
+.footer{
+  background-color: black;
+  width: 1925px;
+  height: 50px;
+  position: relative;
+  margin: 0px 0px 0px -13px;
 }
